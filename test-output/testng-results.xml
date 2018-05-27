@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG automation suite" duration-ms="110" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+    <groups>
+      <group name="Test1">
+        <method signature="GoogleTest.linkToMail()[pri:3, instance:com.test.GoogleTest@402a079c]" name="linkToMail" class="com.test.GoogleTest"/>
+        <method signature="GoogleTest.printTitle()[pri:1, instance:com.test.GoogleTest@402a079c]" name="printTitle" class="com.test.GoogleTest"/>
+      </group> <!-- Test1 -->
+      <group name="Test2">
+        <method signature="GoogleTest.logoTest()[pri:2, instance:com.test.GoogleTest@402a079c]" name="logoTest" class="com.test.GoogleTest"/>
+      </group> <!-- Test2 -->
+    </groups>
+    <test name="TestNG automation" duration-ms="110" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+      <class name="com.test.TestNGBasics">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="setup" is-config="true" duration-ms="10" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="login" is-config="true" duration-ms="0" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="launchBrowser" is-config="true" duration-ms="1" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="entreMethod()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="entreMethod" is-config="true" duration-ms="1" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entreMethod -->
+        <test-method status="PASS" signature="fbTitleTest()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="fbTitleTest" duration-ms="2" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbTitleTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="closeApp" is-config="true" duration-ms="1" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="entreMethod()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="entreMethod" is-config="true" duration-ms="0" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entreMethod -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="googleTitleTest" duration-ms="5" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="closeApp" is-config="true" duration-ms="1" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="whatsappTitleTest()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="whatsappTitleTest" duration-ms="3" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whatsappTitleTest -->
+        <test-method status="PASS" signature="entreMethod()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="entreMethod" is-config="true" duration-ms="0" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entreMethod -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="closeApp" is-config="true" duration-ms="0" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="entreMethod()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="entreMethod" is-config="true" duration-ms="1" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entreMethod -->
+        <test-method status="PASS" signature="yahooTitleTest()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="yahooTitleTest" duration-ms="1" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooTitleTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="closeApp" is-config="true" duration-ms="1" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="deleteCookies" is-config="true" duration-ms="0" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.test.TestNGBasics@6500df86]" name="report" is-config="true" duration-ms="1" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+      </class> <!-- com.test.TestNGBasics -->
+      <class name="com.test.InvocationCountTest">
+        <test-method status="PASS" signature="count()[pri:0, instance:com.test.InvocationCountTest@59ec2012]" name="count" duration-ms="7" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- count -->
+        <test-method status="PASS" signature="count()[pri:0, instance:com.test.InvocationCountTest@59ec2012]" name="count" duration-ms="2" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- count -->
+        <test-method status="PASS" signature="count()[pri:0, instance:com.test.InvocationCountTest@59ec2012]" name="count" duration-ms="6" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- count -->
+        <test-method status="PASS" signature="count()[pri:0, instance:com.test.InvocationCountTest@59ec2012]" name="count" duration-ms="2" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- count -->
+        <test-method status="PASS" signature="count()[pri:0, instance:com.test.InvocationCountTest@59ec2012]" name="count" duration-ms="4" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- count -->
+        <test-method status="PASS" signature="count()[pri:0, instance:com.test.InvocationCountTest@59ec2012]" name="count" duration-ms="2" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- count -->
+        <test-method status="PASS" signature="count()[pri:0, instance:com.test.InvocationCountTest@59ec2012]" name="count" duration-ms="8" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- count -->
+        <test-method status="PASS" signature="count()[pri:0, instance:com.test.InvocationCountTest@59ec2012]" name="count" duration-ms="1" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- count -->
+        <test-method status="PASS" signature="count()[pri:0, instance:com.test.InvocationCountTest@59ec2012]" name="count" duration-ms="1" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- count -->
+        <test-method status="PASS" signature="count()[pri:0, instance:com.test.InvocationCountTest@59ec2012]" name="count" duration-ms="1" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- count -->
+      </class> <!-- com.test.InvocationCountTest -->
+      <class name="com.test.TestNGFeatures">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.test.TestNGFeatures@4cf777e8]" name="login" duration-ms="1" started-at="2018-05-19T17:07:49Z" finished-at="2018-05-19T17:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.test.TestNGFeatures -->
+    </test> <!-- TestNG automation -->
+  </suite> <!-- TestNG automation suite -->
+</testng-results>
