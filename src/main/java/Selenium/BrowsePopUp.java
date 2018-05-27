@@ -39,7 +39,7 @@ public class BrowsePopUp {
 			
 		driver.findElement(By.xpath("//input[@name=\"fileupload\"]")).sendKeys("/home/susee/Desktop/Python.odt");
 		
-	
+		driver.close();
 		
 	}
 
