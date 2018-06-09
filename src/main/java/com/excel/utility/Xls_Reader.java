@@ -7,7 +7,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Calendar;
 
-import org.apache.poi.common.usermodel.HyperlinkType;
+import org.apache.poi.common.usermodel.Hyperlink;
+//import org.apache.poi.common.usermodel.HyperlinkType;
 import org.apache.poi.hssf.usermodel.HSSFDateUtil;
 import org.apache.poi.hssf.util.HSSFColor;
 import org.apache.poi.ss.usermodel.Cell;
@@ -290,7 +291,7 @@ public Xls_Reader(String path) {
 		    hlink_style.setFont(hlink_font);
 		    //hlink_style.setWrapText(true);
 
-		    XSSFHyperlink link = createHelper.createHyperlink(HyperlinkType.FILE);
+		    XSSFHyperlink link = createHelper.createHyperlink(Hyperlink.LINK_FILE);
 		    link.setAddress(url);
 		    cell.setHyperlink(link);
 		    cell.setCellStyle(hlink_style);
