@@ -24,7 +24,6 @@ public class FrameHandling {
 		driver.findElement(By.name("password")).clear();
 		driver.findElement(By.name("password")).sendKeys("susee_1993");
 		Thread.sleep(3000);
-		
 		WebElement login=driver.findElement(By.xpath("//input[@type='submit']"));
 		try {
 			WebDriverWait wait=new WebDriverWait(driver,10);

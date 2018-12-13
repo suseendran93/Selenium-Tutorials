@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.TestNGFeatures">
+      <class name="seleniumTutorial.seleniumTutorials.WebTable2">
         <methods>
-          <include name="login"/>
-          <include name="homePage"/>
+          <include name="launcher"/>
+          <include name="getContents"/>
+          <include name="quit"/>
         </methods>
-      </class> <!-- com.test.TestNGFeatures -->
+      </class> <!-- seleniumTutorial.seleniumTutorials.WebTable2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

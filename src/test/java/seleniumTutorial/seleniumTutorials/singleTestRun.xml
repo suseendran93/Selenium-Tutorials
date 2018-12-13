@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test-suite">
+	<test name="test2">
+
+		<classes>
+
+			<class name="seleniumTutorial.seleniumTutorials.JSExecutor">
+				<methods>
+					<include name="test2" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
